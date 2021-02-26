@@ -1,0 +1,26 @@
+<div class="main-content">
+  <mat-card>
+    <h2>Hi, this is a boilerplate make in <strong>Angular V11.2.2</strong></h2>
+
+    <mat-divider></mat-divider>
+    <br />
+    <p>This project use libraries as:</p>
+
+    <mat-list>
+      <mat-list-item *ngFor="let library of libraries">
+        <mat-icon mat-list-icon>east</mat-icon>
+
+        <strong mat-line>{{ library.name }}</strong>
+        <div mat-line>{{ library.version }}</div>
+      </mat-list-item>
+    </mat-list>
+
+    <mat-divider></mat-divider>
+
+    <br />
+    <p>
+      For more information about me, can you access to my
+      <a href="https://krrskl.github.io">portfolio</a>
+    </p>
+  </mat-card>
+</div>

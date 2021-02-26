@@ -1,6 +1,9 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports: [
@@ -8,7 +11,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     // Angular Material
-
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
     CommonModule,
   ],
   exports: [
@@ -16,7 +21,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     // Angular Material
-
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
     // Components
   ],
   providers: [],
